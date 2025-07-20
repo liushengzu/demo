@@ -8,7 +8,7 @@ export default defineConfig({
   base: "./",
   build: {
     outDir:
-      "C:\\Users\\liuqifeng\\AppData\\Roaming\\kingsoft\\wps\\jsaddons\\test_",
+      "C:\\Users\\liuqifeng\\AppData\\Roaming\\kingsoft\\wps\\jsaddons\\test_1.0.0",
     emptyOutDir: true,
   },
   plugins: [
@@ -23,8 +23,5 @@ export default defineConfig({
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
-  },
-  server: {
-    host: "0.0.0.0",
   },
 });

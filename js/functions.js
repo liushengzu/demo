@@ -7,9 +7,49 @@
  * @returns {number} - 可以设置返回值类型
  */
 function custom_function(arg0, arg1, arg2, arg3, arg4) {
-    let argAndType = (arg) => `${arg}: ${typeof arg}`
-    let argAndTypeList = [arg0, arg1, arg2, arg3, arg4].map(argAndType)
-    let message = `这是一个加载项自定义函数(${argAndTypeList.join(', ')})`
-    console.log(message)
-    return message
+  let argAndType = (arg) => `${arg}: ${typeof arg}`;
+  let argAndTypeList = [arg0, arg1, arg2, arg3, arg4].map(argAndType);
+  let message = `这是一个加载项自定义函数(${argAndTypeList.join(", ")})`;
+  console.log(message);
+  return message;
 }
+/**
+ * 这是一个加载项自定义函数
+ * @customfunction
+ * * @param {string} a- 支持整数、小数
+ * @param {number} b - 支持整数、小数
+ */
+function add_two_numbers(a, b) {
+  return a + b;
+}
+/**
+ * 这是一个加载项自定义函数
+ * @customfunction
+ * * @param {string} a- 支持整数、小数
+ * @param {number} b - 支持整数、小数
+ */
+
+function jianFa(a, b) {
+  return a - b;
+}
+/**
+ * 这是一个加载项自定义函数
+ * @customfunction
+ * * @param {string} a- 支持整数、小数
+ * @param {number} b - 支持整数、小数
+ */
+function substraction(a, b) {
+  return a * b;
+}
+/**
+ * 这是一个加载项自定义函数
+ * @customfunction
+ * * @param {string} a- 支持整数、小数
+ * @param {number} b - 支持整数、小数
+ */ function shengFa(a, b) {
+  return a / b;
+}
+let res1 = add_two_numbers(1, 2);
+let res = shengFa(1, 2);
+console.log(res);
+console.log(res1);

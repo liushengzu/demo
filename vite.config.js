@@ -6,6 +6,11 @@ import { functionsScanner, copyFile } from "wpsjs/vite_plugins";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "./",
+  build: {
+    outDir:
+      "C:\\Users\\liuqifeng\\AppData\\Roaming\\kingsoft\\wps\\jsaddons\\test_",
+    emptyOutDir: true,
+  },
   plugins: [
     copyFile({ src: "manifest.xml", dest: "manifest.xml" }),
     functionsScanner({

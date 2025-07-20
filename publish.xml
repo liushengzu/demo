@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsplugins>
+    <jspluginonline install="https://skgcpub.oss-cn-hangzhou.aliyuncs.com" url="https://skgcpub.oss-cn-hangzhou.aliyuncs.com/wps/autoQuantities/wps-addon-build/" enable="enable_dev" type="et" name="酷造价"/>
+    <jsplugin enable="enable_dev" url="file://" name="test" type="et" version="1.0.0" />
+</jsplugins>    

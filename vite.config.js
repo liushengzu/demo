@@ -8,7 +8,7 @@ export default defineConfig({
   base: "./",
   build: {
     outDir:
-      "C:\\Users\\liuqifeng\\AppData\\Roaming\\kingsoft\\wps\\jsaddons\\test_1.0.0",
+      "C:\\Users\\Administor\\AppData\\Roaming\\kingsoft\\wps\\jsaddons\\test_1.0.0",
     emptyOutDir: true,
   },
   plugins: [
